@@ -1,9 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import {Table } from 'react-bootstrap'
 import axios from 'axios'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faStarSolid } from '@fortawesome/free-regular-svg-icons'
-import { faStarRegular } from '@fortawesome/free-regular-svg-icons'
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 {/*import './table.css'
 import { useTable } from 'react-table'
  import MOCK_DATA from '../MOCK_DATA.json'
@@ -43,7 +41,10 @@ function RepoTable() {
                         <td>{repo.full_name}</td>
                         <td>{repo.url}</td>
                         <td>{repo.description}</td>
-                        <td>{repo.stargazers_count}</td> 
+                        <td>{repo.stargazers_count}
+                        <FontAwesomeIcon icon ="check-sqaure" />
+                        </td> 
+                        
                     </tr>
                         )
                         }
