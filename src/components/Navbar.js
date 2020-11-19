@@ -1,54 +1,36 @@
-import React from 'react'
-import Dropdown from 'react-bootstrap'
+{/*import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+import FormControl from "react-bootstrap/FormControl";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
-function Navbar() {
-    return (
-        <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
 
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav mr-auto">
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Pull Requests</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Issues</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Marketplace</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Explore</a>
-                        </li>
-                        <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown
-                        </a>
-                            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a className="dropdown-item" href="#">Action</a>
-                                <a className="dropdown-item" href="#">Another action</a>
-                                <div className="dropdown-divider"></div>
-                                <a className="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled" href="#" tabIndex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
-                    <form className="form-inline my-2 my-lg-0">
-                        <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-
-                </div>
-            </nav>
-
-        </>
-
-    );
+export default function Navigation() {
+  return (
+    <>
+      <Navbar bg="light" expand="lg">
+        <Navbar.Brand href="#home">nav bar</Navbar.Brand>
+        <Navbar.Toggle />
+        <Navbar.Collapse>
+          <Nav className="mr-auto">
+            <Nav.Link href="#home">home</Nav.Link>
+            <Nav.Link href="#foo">foo</Nav.Link>
+            <NavDropdown title="Dropdown">
+              <NavDropdown.Item href="#action/1">action 1</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/4">action 4</NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+          <Form inline>
+            <FormControl type="text" placeholder="search" className="mr-sm-2" />
+            <Button variant="outline-primary">search</Button>
+          </Form>
+        </Navbar.Collapse>
+      </Navbar>
+    </>
+  );
 }
-
-export default Navbar
+*/}
