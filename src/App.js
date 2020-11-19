@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { Container , Card, Col, Row} from 'react-bootstrap'
 import Navbar from './components/Navbar'
 import './App.css'
 import RepoTable from './components/RepoTable'
-import './components/Helpers/Fonts'
+
 
 
 
